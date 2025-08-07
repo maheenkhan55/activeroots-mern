@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Tech Stack:
 - React.js
 - Node.js

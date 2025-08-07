@@ -130,3 +130,6 @@ programSchema.virtual('ageRange').get(function() {
 });
 
 export default mongoose.model('Program', programSchema);
+
+// This module defines the Program model for managing sports programs in the application.
+// It includes fields for program details such as name, sport, description, age group

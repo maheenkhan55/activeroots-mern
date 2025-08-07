@@ -70,3 +70,14 @@ enrollmentSchema.virtual('progressPercentage').get(function() {
 });
 
 export default mongoose.model('Enrollment', enrollmentSchema);
+
+
+// This module defines the Enrollment model for managing user enrollments in programs.
+// It includes fields for user reference, program reference, child details, enrollment status, 
+// payment status, session tracking, and notes. The schema also includes a virtual field to calculate
+// the progress percentage based on sessions attended versus total sessions. The model is exported for use in
+// other parts of the application.
+// This module is essential for tracking user enrollments and managing their progress in various programs.
+// It allows for detailed tracking of each enrollment, including payment and session attendance,
+// which is crucial for both administrative purposes and user experience.
+// The schema is designed to be flexible 

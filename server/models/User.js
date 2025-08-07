@@ -66,3 +66,10 @@ userSchema.methods.comparePassword = async function(candidatePassword) {
 };
 
 export default mongoose.model('User', userSchema);
+
+
+// This module defines the User model for managing user accounts in the application.
+// It includes fields for user details such as name, email, password, phone, role,
+// and a list of children. The schema also includes methods for password hashing and comparison.
+// The User model is essential for user authentication and authorization,
+// allowing users to manage their accounts and enroll their children in programs. 
